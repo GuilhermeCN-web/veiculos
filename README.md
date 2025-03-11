@@ -1,12 +1,12 @@
-Vehicle Management System
+# Vehicle Management System
 
-Overview
+## Overview
 
 This project implements a simple Vehicle Management System in Java, using object-oriented programming principles. It defines a base class Vehicle and three specific vehicle types: Car, Motorcycle, and Truck. The Main class demonstrates their usage.
 
-Classes
+# Classes
 
-1. Vehicle (Base Class)
+## 1. Vehicle (Base Class)
 
 Attributes:
 
@@ -20,7 +20,7 @@ Methods:
 
 displayInfo(): Prints vehicle details.
 
-2. Car (Extends Vehicle)
+## 2. Car (Extends Vehicle)
 
 Additional Attribute:
 
@@ -30,7 +30,7 @@ Methods:
 
 Overrides displayInfo() to include numberOfDoors.
 
-3. Motorcycle (Extends Vehicle)
+## 3. Motorcycle (Extends Vehicle)
 
 Additional Attribute:
 
@@ -40,7 +40,7 @@ Methods:
 
 Overrides displayInfo() to include hasSidecar.
 
-4. Truck (Extends Vehicle)
+## 4. Truck (Extends Vehicle)
 
 Additional Attribute:
 
@@ -50,6 +50,6 @@ Methods:
 
 Overrides displayInfo() to include loadCapacity.
 
-5. Main Class
+## 5. Main Class
 
 Instantiates and demonstrates different vehicle types.
